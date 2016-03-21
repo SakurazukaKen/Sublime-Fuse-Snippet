@@ -6,8 +6,8 @@ just copy the files to your Packages directory
 
 ##Usage
 start typing 'md-' in the jade files and autocomplete window opens, select what you want.It's similar when you are typing in ls files, type ng-, ms-and ui- will show different options;
-![enter image description here](https://raw.githubusercontent.com/SakurazukaKen/Sublime-Fuse-Snippets/master/demogig/jade.gif)
-![enter image description here](https://raw.githubusercontent.com/SakurazukaKen/Sublime-Fuse-Snippets/master/demogig/ls.gif)
+![enter image description here](https://raw.githubusercontent.com/SakurazukaKen/Sublime-Fuse-Snippets/master/demogif/jade.gif)
+![enter image description here](https://raw.githubusercontent.com/SakurazukaKen/Sublime-Fuse-Snippets/master/demogif/ls.gif)
 
 ##Template Snippets
 
