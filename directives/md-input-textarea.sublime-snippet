@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+textarea(name="${1:name}", ng-model="${2:vm.text}", ${3:placeholder="${4:Enter Your Name}", }${5:require, }${6:ng-pattern="${7:regExpr}", }${8:md-maxlength="${9}", }${10:md-minlength="${11}", })
+]]></content>
+  <tabTrigger>textarea</tabTrigger>
+  <scope>text.jade</scope>
+</snippet>
+  

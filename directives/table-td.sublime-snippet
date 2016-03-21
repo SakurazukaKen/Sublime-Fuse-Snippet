@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+td \{\{${1:item.name}\}\}
+$2
+]]></content>
+  <tabTrigger>td</tabTrigger>
+  <scope>text.jade</scope>
+</snippet>

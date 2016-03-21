@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+'${1:content@app}':
+  template-url: 'app/main/${2:dashboard/dashboard}.html'
+  controller-as: 'vm'
+  controller: (\$scope, ${3:other module})!->
+    $4
+$5
+]]></content>
+  <tabTrigger>ui-view</tabTrigger>
+  <scope>source.livescript</scope>
+</snippet>

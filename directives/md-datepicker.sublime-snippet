@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+md-datepicker(ng-model="${1:vm.date}", ${2:ng-change="${4:validator}", }${5:md-max-date="${6:Date}", md-min-date="${7:Date}", }${8:md-date-filter="${9:fileter(Date):boolean}", }${10:placeholder="${11:chose the date}", }${12:ng-disabled="${13:false}"})
+${14}
+]]></content>
+  <tabTrigger>md-datepicker</tabTrigger>
+  <scope>text.jade</scope>
+</snippet>
+  

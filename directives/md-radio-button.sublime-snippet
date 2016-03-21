@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+md-radio-button(ng-value="${1:value}", ${2:ng-disabled="${3:false}", }${4:aria-label="${5:useIfPic}"}) \{\{${6:label}\}\}
+$7
+]]></content>
+  <tabTrigger>md-radio-button</tabTrigger>
+  <scope>text.jade</scope>
+</snippet>

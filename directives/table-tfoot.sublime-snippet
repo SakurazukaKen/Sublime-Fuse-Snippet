@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+tfoot
+  tr
+    ${1:|td |add your td here}
+]]></content>
+  <tabTrigger>tfoot</tabTrigger>
+  <scope>text.jade</scope>
+</snippet>

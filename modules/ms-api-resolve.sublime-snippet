@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+${1:data}: (ms-api)-> ms-api.resolve('${2:dashboard}@${3:get}')
+]]></content>
+  <tabTrigger>ms-api-resolve</tabTrigger>
+  <scope>source.livescript</scope>
+</snippet>

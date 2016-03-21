@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+md-list-item.md-2-line(${1:ng-repeat="${2:item} in ${3:vm.items}"})
+  ${4:img.md-avatar(ng-src="\{\{$2.${5:avatar}\}\}")}
+  .md-list-item-text(layout="column")
+    h3 \{\{${6:$2.${7:who}}\}\}
+    p \{\{${8:$2.${9:notes}}\}\}
+$10
+]]></content>
+  <tabTrigger>md-list-item-2line</tabTrigger>
+  <scope>text.jade</scope>
+</snippet>

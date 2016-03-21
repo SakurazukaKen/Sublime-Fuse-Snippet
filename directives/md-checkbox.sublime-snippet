@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+md-checkbox(${1:md-no-ink,} ${2:ng-true-value="${3:'checked'}", ng-false-value="${4:'unchecked'}", } ng-model="${5:checkbox}", ${6:ng-disabled="${7:false}"}) ${8:content}
+${9}
+]]></content>
+  <tabTrigger>md-checkbox</tabTrigger>
+  <scope>text.jade</scope>
+</snippet>
+  

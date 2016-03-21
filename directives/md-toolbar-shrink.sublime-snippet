@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+md-toolbar(md-scroll-shrink="true", md-shrink-speed-factor="${1:0.5}")
+  .md-toolbar-tools
+    ${2:span My app's title}
+md-content
+  $3
+]]></content>
+  <tabTrigger>md-toolbar-shrink</tabTrigger>
+  <scope>text.jade</scope>
+</snippet>

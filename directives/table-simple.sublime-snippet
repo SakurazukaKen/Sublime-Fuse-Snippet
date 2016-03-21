@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+.simple-table-container${1:.md-whiteframe-4dp}
+  .table-title ${2:Simple table}
+  table.simple(ms-reponsive-table)
+    thead
+      tr
+        ${3:| add your th element here}
+]]></content>
+  <tabTrigger>table-simple</tabTrigger>
+  <scope>text.jade</scope>
+</snippet>

@@ -1,0 +1,21 @@
+<snippet>
+  <content><![CDATA[
+confirm = \$mdDialog.confirm!parent ${1:angular.element document.querySelctor ${2:\#dialog-container}}
+.clickOutsideToClose ${3:true}
+.title '${4:This is an alert title}'
+.textContent '${5:There is some description}'
+.ariaLabel '${6:Alert Dialog}'
+.ok '${7:Ok}'
+.cancel '${8:Cancel}'
+.targetEvent ${9:evt}
+\$mdDialog.show confirm .then do
+  ->
+    ${10:'do some operation when ok'}
+  ->
+    ${11:'do some operation when cancel'}
+$12
+]]></content>
+  <tabTrigger>md-dialog-confirm</tabTrigger>
+  <scope>source.livescript</scope>
+</snippet>
+  

@@ -1,0 +1,19 @@
+<snippet>
+  <content><![CDATA[
+\$state-provider.state 'app.${1:dashboard}', do
+  url: '${2:/dashboard/\{\{id\}\}}'
+  body-class: '${3:dashboard}'
+  resolve:
+    ${4:data}: (ms-api)-> ms-api.resolve('${5:dashboard}@${6:get}')$7
+  views:
+    '${8:content@app}':
+      template-url: 'app/main/${9:dashboard/dashboard}.html'
+      controller-as: 'vm'
+      controller: (\$scope, $4,${10:"other injectiong"})!->
+        $11
+    $12
+]]></content>
+  <tabTrigger>ui-state-provider</tabTrigger>
+  <scope>source.livescript</scope>
+</snippet>
+  

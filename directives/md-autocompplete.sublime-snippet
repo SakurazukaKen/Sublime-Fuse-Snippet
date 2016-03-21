@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+md-autocomplete(md-selected-item="${1:selectedItem}", md-serch-text="${2:serchText}", md-items="${3:item} in vm.${4:getMatches(${2:serchText})}", md-item-text="${3:item}.${5:name}")
+	${6:md-item-template
+		${7:span(md-highlight-text="${8:${2:serchText}}") \{\{ ${9:${3}.${5}} \}\}}}
+  ${10:md-not-found ${11:No Matches Found.}}
+${11}
+]]></content>
+	<tabTrigger>md-autocomplete</tabTrigger>
+	<scope>text.jade</scope>
+</snippet>
+	

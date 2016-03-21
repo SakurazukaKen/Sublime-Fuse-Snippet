@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+input(name="${1:email}", ng-model="${2:vm.email}", ${3:placeholder="${4:Enter Your Email}", }${5:require, }${6:ng-pattern="${7:/^.+@.+\..+$/}", }${8:maxlength="${9}", }${10:minlength="${11}", }type="email")
+div(ng-messages="${2:vm.email}.$error" role="${12:alert}", multiple)
+  ${13:div(ng-message="required") ${14:This item can not be empty!}}
+  ${14:div(ng-message-exp="['minlength','maxlength'") ${15:Your Email must be between $11 and $9 characters}}
+  ${16:div(ng-message="pattern") ${17:It is not a valid email address!}}
+${18}
+]]></content>
+  <tabTrigger>md-input-email</tabTrigger>
+  <scope>text.jade</scope>
+</snippet>

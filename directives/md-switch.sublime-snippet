@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+md-switch(ng-model="${1:vm.switch}", ${2:ng-true-value="${3:'on'}", ng-false-value="${4:'off'}", }${5:ng-disabled="${6:false}", }${7:ng-change="${8:onChange()}", }aria-label="${9:label}") ${10:label}
+$11
+]]></content>
+  <tabTrigger>md-switch</tabTrigger>
+  <scope>text.jade</scope>
+</snippet>
+  

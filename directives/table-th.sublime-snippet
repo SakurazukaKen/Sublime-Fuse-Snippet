@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+th.secondary-text
+  .table-header
+    span.column-title ${1:Name}
+$2
+]]></content>
+  <tabTrigger>th</tabTrigger>
+  <scope>text.jade</scope>
+</snippet>
+  

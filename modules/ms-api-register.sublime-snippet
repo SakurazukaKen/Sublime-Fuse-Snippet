@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+ms-api-provider.register '${1:ResourceName}', ['${2:sample/smaple}.json']
+]]></content>
+  <tabTrigger>ms-api-register</tabTrigger>
+  <scope>source.livescript</scope>
+</snippet>
+  

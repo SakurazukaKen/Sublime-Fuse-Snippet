@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+md-tabs(${1:md-dynamic-height, }ng-cloak)
+  md-tab(ng-repeat="${2:tab} in ${3:vm.tabs}", label="${4:$2.label}")
+    ${5:| put your tabcontent here}
+]]></content>
+  <tabTrigger>md-tabs-dynamic</tabTrigger>
+  <scope>text.jade</scope>
+</snippet>
+  

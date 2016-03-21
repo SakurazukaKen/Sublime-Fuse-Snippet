@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+md-slider(flex, ng-model="${1:vm.slider}", ${2:min="${3:0}", max="${4:100}", }${5:step="${6:1}", md-discrete, }${7:md-vertical, }${8:ng-disabled="${9:false}", }aria-label="${10:label}")
+$11
+]]></content>
+  <tabTrigger>md-slider</tabTrigger>
+  <scope>text.jade</scope>
+</snippet>
+  

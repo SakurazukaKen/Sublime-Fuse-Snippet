@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+'use strict'
+do !->
+  (${3:providers}) <-! angular.module 'app.${1:module}',[${2:Injection}] .config
+  ${4:'config-body'}
+]]></content>
+  <tabTrigger>ng-module-empty</tabTrigger>
+  <scope>source.livescript</scope>
+</snippet>

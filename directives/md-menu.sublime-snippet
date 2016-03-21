@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+md-menu
+  md-button.md-icon-button(ng-click="\$mdOpenMenu(\$event)")
+    md-icon(md-menu-origin) ${1:menu}
+  md-menu-content(width="${2:4}")
+    md-menu-item(ng-repeat="${3:option} in ${4:vm.menuOptions}")
+      md-button(ng-click="${5:vm.clickMenuItem(\$index)}")
+        ${6:md-icon \{\{${7:$3.icon}\}\}}
+        span(md-menu-align-target) \{\{${8:$3.title}\}\}
+$9
+]]></content>
+  <tabTrigger>md-menu</tabTrigger>
+  <scope>text.jade</scope>
+</snippet>

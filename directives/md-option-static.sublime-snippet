@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+md-option(value="${1:value}") ${2:label}
+$3
+]]></content>
+  <tabTrigger>md-option-static</tabTrigger>
+  <scope>text.jade</scope>
+</snippet>

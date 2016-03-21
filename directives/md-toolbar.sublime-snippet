@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+md-toolbar${1:.md-tall}
+  .md-toolbar-tools${2:.md-toolbars-bottom}
+    $3
+]]></content>
+  <tabTrigger>md-toolbar</tabTrigger>
+  <scope>text.jade</scope>
+</snippet>

@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+\$mdDialog.show do
+  \$mdDialog.alert!parent ${1:angular.element document.querySelctor ${2:\#dialog-container}}
+  .clickOutsideToClose ${3:true}
+  .title '${4:This is an alert title}'
+  .textContent '${5:There is some description}'
+  .ariaLabel '${6:Alert Dialog}'
+  .ok '${7:Got it}'
+  .targetEvent ${8:evt}
+$9
+]]></content>
+  <tabTrigger>md-dialog-alert</tabTrigger>
+  <scope>source.livescript</scope>
+</snippet>
+  

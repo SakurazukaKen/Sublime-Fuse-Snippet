@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+input(name="${1:name}", ng-model="${2:vm.text}", ${3:placeholder="${4:Enter Your Name}", }${5:require, }${6:ng-pattern="${7:regExpr}", }${8:md-maxlength="${9}", }${10:md-minlength="${11}", }type="text")
+div(ng-messages="${2:vm.text}.$error" role="${12:alert}", multiple)
+  ${13:div(ng-message="required") ${14:This item can not be empty!}}
+  ${15:div(ng-message="pattern") ${16:That doesn't look valid!}}
+  ${17:div(ng-message="md-maxlength") ${18:Chars more than ${9}!}}
+  ${19:div(ng-message="md-minlength") ${20:chars less than ${11}!}}
+${21}
+]]></content>
+  <tabTrigger>md-input-text</tabTrigger>
+  <scope>text.jade</scope>
+</snippet>

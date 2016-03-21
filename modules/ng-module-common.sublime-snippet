@@ -1,0 +1,27 @@
+<snippet>
+  <content><![CDATA[
+'use strict'
+do !->
+  (\$translate-partial-loader-provider, \$state-provider, ms-navigation-service-provider, 
+  ms-api-provider${3:otherprovider}) <-! angular.module 'app.${1:module}',[${2:Injection}] .config
+  \$translatePartialLoaderProvider.add-part 'app/main/${4:sample}'
+  \$state-provider.state 'app.${5:sample}', do
+    url: '${6:/$4}'
+    body-class: '${7:$5}'
+    resolve:
+      ${8:data}: (api-resolver)-> api-resolver.resolve('${9:$5}@${10:get}')$11
+    views:
+      '${12:content@app}':
+        template-url: 'app/main/${13:sample/sample}.html'
+        controller-as: 'vm'
+        controller: (\$scope, $8,${14:"other injection"})!->
+          ${20:'controller body'}
+  msNavigationServiceProvider.saveItem '${15:nav-name}', do
+    title: '${16:title}'
+    ${17:icon: 'icon-${18:view-stream}'}
+    state: 'app.$5'
+  ms-api-provider.register '$9', ['$13.json']
+]]></content>
+  <tabTrigger>ng-module-common</tabTrigger>
+  <scope>source.livescript</scope>
+</snippet>

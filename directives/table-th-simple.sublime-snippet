@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+th${1:.text-right} ${2:Name}
+$3
+]]></content>
+  <tabTrigger>th-simple</tabTrigger>
+  <scope>text.jade</scope>
+</snippet>

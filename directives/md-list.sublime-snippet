@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+md-list(ng-cloak)
+  ${1:md-subheader.md-no-sticky ${2:subheader}}
+  ${3:| add md-list-item here}
+]]></content>
+  <tabTrigger>md-list</tabTrigger>
+  <scope>text.jade</scope>
+</snippet>
+  

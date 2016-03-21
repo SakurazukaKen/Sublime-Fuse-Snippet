@@ -1,0 +1,22 @@
+<snippet>
+  <content><![CDATA[
+\$mdDialog.show do
+  controller: (\$scope, \$mdDialog$1) !->
+    ${2:\$scope.hide = !-> \$mdDialog.hide!}
+    ${3:\$scope.cancel = !-> \$mdDialog.cancel!}
+    ${4:\$scope.${5:answer} = (${6:answer}) !-> \$mdDialog.hide $6}
+  templateUrl: '${7:src}'
+  parent: angular.element ${8:document.querySelector ${9:\body}}
+  targetEvent: ${10:evt}
+  clickOutsideToClose: ${11:true}
+  fullscreen: ${12:true}
+.then do
+  (${13:answer}) ->
+    ${14:"do some opration with" + $13}
+  ->
+    ${15:"do some operation when cancel"}
+$16
+]]></content>
+  <tabTrigger>md-dialog-custom</tabTrigger>
+  <scope>source.livescript</scope>
+</snippet>

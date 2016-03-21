@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+'use strict'
+do !->
+  (${3:dependency})<-!angular.module 'app.${1:module-name}' .controller '${2:CtrlName}Controller'
+  ${4:'CtrlBody'}
+]]></content>
+  <tabTrigger>ng-controller</tabTrigger>
+  <scope>source.livescript</scope>
+</snippet>
+  

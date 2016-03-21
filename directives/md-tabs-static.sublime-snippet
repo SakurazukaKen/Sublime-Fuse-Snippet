@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+md-tabs(${1:md-dynamic-height})
+  ${2:md-tab
+    md-tab-label ${3:Tab00}
+    md-tab-body()
+      ${4:md-content(ng-include="${5:src:string}")}}
+  $6
+]]></content>
+  <tabTrigger>md-tabs-static</tabTrigger>
+  <scope>text.jade</scope>
+</snippet>
+  

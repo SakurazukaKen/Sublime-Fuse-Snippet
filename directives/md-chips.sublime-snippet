@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+md-chips(ng-model="${1:items}", placeholder="${2:add your chip here}", ${3:md-on-add="${4:expr}", md-on-remove="${5:expr}", md-on-select="${6:expr}",} ${7:readonly="${8:false}"})
+  md-chip-template
+    ${9:content}
+  ${10:button(md-chip-remove)
+    ${11:md-icon close}}
+${12}
+]]></content>
+  <tabTrigger>md-chips</tabTrigger>
+  <scope>text.jade</scope>
+</snippet>
+  

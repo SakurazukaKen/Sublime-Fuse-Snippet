@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+md-grid-list()
+]]></content>
+  <tabTrigger>md-grid-list</tabTrigger>
+  <scope>text.jade</scope>
+</snippet>
+  

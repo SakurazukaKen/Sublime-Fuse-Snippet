@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+md-button${1:.md-primary}${2:.md-warn}${3:.md-accent}${4:.md-raised}(${5:ng-click="${6:click()}", }${7:ng-disabled="${8:false}", }) ${9:Button}
+$10
+]]></content>
+  <tabTrigger>md-button</tabTrigger>
+  <scope>text.jade</scope>
+</snippet>
+  

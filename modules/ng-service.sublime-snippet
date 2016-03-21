@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+'use strict'
+do !->
+  (${3:injection})<- angular.module 'app.${1:module}' .factory '${2:ServiceName}Service'
+  ${4:'ServiceBody'}
+]]></content>
+  <tabTrigger>ng-service</tabTrigger>
+  <scope>source.livescript</scope>
+</snippet>
+  

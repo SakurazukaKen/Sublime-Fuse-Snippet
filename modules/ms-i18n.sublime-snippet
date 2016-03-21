@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+\$translatePartialLoaderProvider.add-part 'app/main/${1:dashboard}'
+$2
+]]></content>
+  <tabTrigger>ms-i18n</tabTrigger>
+  <scope>source.livescript</scope>
+</snippet>
+  

@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+ms-widget(flippable="${1:true}")
+  ms-widget-front${2:.md-white-bg}
+    ${5:| front content}
+  ${3:ms-widget-back${4:.md-white-bg}}
+    ${6:| back content}
+$7
+]]></content>
+  <tabTrigger>ms-widget</tabTrigger>
+  <scope>text.jade</scope>
+</snippet>
+  

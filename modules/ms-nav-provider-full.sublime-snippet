@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+ms-navigation-service-provider.saveItem '${1:statename}', do
+  title: '${2:title}'
+  ${3:icon: 'icon-${4:view-stream}'}
+  ${5:state: 'app.${6:state}'}
+  ${7:group: true}
+  weight: ${8:1}
+  ${9:stateParams:
+    ${10:'param1'}: ${11:'params value'}}
+$12
+]]></content>
+  <tabTrigger>ms-nav-full</tabTrigger>
+  <scope>source.livescript</scope>
+</snippet>
+  

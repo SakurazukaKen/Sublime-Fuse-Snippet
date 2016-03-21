@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+md-radio-group(ng-model="${1:vm.data}")
+  ${2:md-radio-button(ng-repeat="${3:item} in ${4:vm.radiobuttons}", ng-value="${3}.${5:value}", ${6:ng-disabled="${3}.${7:isDisabled}", }) \{\{${3}.${8:label}\}\}
+$9
+]]></content>
+  <tabTrigger>md-radio-group</tabTrigger>
+  <scope>text.jade</scope>
+</snippet>
+  

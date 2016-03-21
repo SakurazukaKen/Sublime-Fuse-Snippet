@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+table.dataTable.row-border.hover(datatable="ng", dt-options="${1:vm.dtOptions}")
+  thead
+    tr
+      ${2:th add your th here}
+]]></content>
+  <tabTrigger>table-dt</tabTrigger>
+  <scope>text.jade</scope>
+</snippet>
+  

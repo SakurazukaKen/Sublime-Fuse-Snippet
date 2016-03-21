@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+do
+  dom: '${1:<"top"f>rt<"bottom"<"left"<"length"l>><"right"<"info"i><"pagination"p>>>}'
+  pagingType: '${2:simple|full}${3:_number}'
+  autoWith: ${4:false}
+  responsive: ${5:true}
+$6
+]]></content>
+  <tabTrigger>DTOption</tabTrigger>
+  <scope>source.livescript</scope>
+</snippet>
+  

@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+md-select(name="${1:mySelct}", ng-model="${2:vm.select}", md-on-open="${3:loader():Promise}", ${4:required})
+  md-option(ng-repeat="${5:opt} in ${6:vm.options}", ng-value="$5.${7:value}") \{\{$5.${8:label}\}\}
+$9
+]]></content>
+  <tabTrigger>md-select-async</tabTrigger>
+  <scope>text.jade</scope>
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+md-fab-speed-dial${1:.md-fling}${2:.md-scale}(${3:md-open="${4:isOpen}", }md-direction="${5:up|down|left|right}")
+  md-fab-trigger
+    md-button.md-fab.md-warn
+      ${6:md-icon($7) ${8:menu}}
+  md-fab-actions
+    ${9:md-button.md-fab.md-mini.md-raised()
+      ${10:md-icon($11) ${12:menu}}}
+$13
+]]></content>
+  <tabTrigger>md-fab-speed-dial</tabTrigger>
+  <scope>text.jade</scope>
+</snippet>
+  
