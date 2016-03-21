@@ -3,7 +3,6 @@
 md-input-container(${1:md-no-float})
   ${2:label ${3:username}}
   ${4:input(type="${5:text}", ng-model="${6:vm.model}")}
-${7}
 ]]></content>
   <tabTrigger>md-input-container</tabTrigger>
   <scope>text.jade</scope>
